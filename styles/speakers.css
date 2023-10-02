@@ -48,3 +48,17 @@
 .speaker__bio {
     color: var(--color-text-on-secondary);
 }
+
+@media (width < 1000px) {
+    .speakers__wrapper {
+       grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 840px) {
+    .nav {
+        background-color: var(--color-text-on-primary);
+    }
+
+   
+}
